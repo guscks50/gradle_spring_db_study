@@ -8,7 +8,6 @@ import java.util.List;
 import javax.sql.DataSource;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.dao.EmptyResultDataAccessException;
 
 import gradle_spring_db_study.config.AppCtx;
 import gradle_spring_db_study.spring.Member;

@@ -1,0 +1,108 @@
+[2020-09-29 11:35:22:448][main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6df97b55
+[2020-09-29 11:35:22:463][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2020-09-29 11:35:22:534][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\ChangePasswordService.class]
+[2020-09-29 11:35:22:535][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberDao.class]
+[2020-09-29 11:35:22:536][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberInfoPrinter.class]
+[2020-09-29 11:35:22:537][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberListPrinter.class]
+[2020-09-29 11:35:22:537][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberPrinter.class]
+[2020-09-29 11:35:22:538][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberRegisterService.class]
+[2020-09-29 11:35:22:668][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2020-09-29 11:35:22:669][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2020-09-29 11:35:22:670][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2020-09-29 11:35:22:675][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2020-09-29 11:35:22:676][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2020-09-29 11:35:22:681][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2020-09-29 11:35:22:734][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appCtx'
+[2020-09-29 11:35:22:736][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2020-09-29 11:35:22:736][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2020-09-29 11:35:22:751][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2020-09-29 11:35:22:758][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+[2020-09-29 11:35:22:758][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2020-09-29 11:35:22:766][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2020-09-29 11:35:22:766][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2020-09-29 11:35:22:771][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'changePasswordService'
+[2020-09-29 11:35:22:775][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberDao'
+[2020-09-29 11:35:22:780][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+[2020-09-29 11:35:23:1619][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberDao' via constructor to bean named 'dataSource'
+[2020-09-29 11:35:23:1643][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberInfoPrinter'
+[2020-09-29 11:35:23:1645][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberPrinter'
+[2020-09-29 11:35:23:1646][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberListPrinter'
+[2020-09-29 11:35:23:1648][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberListPrinter' via constructor to bean named 'memberDao'
+[2020-09-29 11:35:23:1648][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberListPrinter' via constructor to bean named 'memberPrinter'
+[2020-09-29 11:35:23:1649][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberRegisterService'
+[2020-09-29 11:35:23:1650][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberRegisterService' via constructor to bean named 'memberDao'
+[2020-09-29 11:35:23:1650][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+[2020-09-29 11:35:23:1670][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
+[2020-09-29 11:35:23:1671][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+[2020-09-29 11:35:23:1674][main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2020-09-29 11:35:23:1873][main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [gradle_spring_db_study.spring.ChangePasswordService.changePassword]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2020-09-29 11:35:23:1874][main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92] for JDBC transaction
+[2020-09-29 11:35:23:1877][main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92] to manual commit
+[2020-09-29 11:35:23:1888][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query
+[2020-09-29 11:35:23:1889][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT ID, EMAIL, PASSWORD, NAME, REGDATE FROM MEMBER WHERE EMAIL = ?]
+[2020-09-29 11:35:23:1911][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+[2020-09-29 11:35:23:1912][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update member set name=?, password=? where email=?]
+[2020-09-29 11:35:23:1913][main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+[2020-09-29 11:35:23:1913][main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92]
+[2020-09-29 11:35:23:1915][main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92] after transaction
+[2020-09-29 11:35:23:1916][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query
+[2020-09-29 11:35:23:1916][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT ID, EMAIL, PASSWORD, NAME, REGDATE FROM MEMBER WHERE EMAIL = ?]
+[2020-09-29 11:35:23:1916][main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2020-09-29 11:35:23:1918][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+[2020-09-29 11:35:23:1918][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+[2020-09-29 11:35:23:1918][main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2020-09-29 11:35:23:1920][main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6df97b55, started on Tue Sep 29 11:35:22 KST 2020
+[2020-09-29 11:42:33:431][main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6df97b55
+[2020-09-29 11:42:33:447][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2020-09-29 11:42:33:516][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\ChangePasswordService.class]
+[2020-09-29 11:42:33:519][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberDao.class]
+[2020-09-29 11:42:33:520][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberInfoPrinter.class]
+[2020-09-29 11:42:33:521][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberListPrinter.class]
+[2020-09-29 11:42:33:522][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberPrinter.class]
+[2020-09-29 11:42:33:522][main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\web_study10\gradle_spring_db_study\bin\main\gradle_spring_db_study\spring\MemberRegisterService.class]
+[2020-09-29 11:42:33:646][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2020-09-29 11:42:33:647][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2020-09-29 11:42:33:647][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2020-09-29 11:42:33:651][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2020-09-29 11:42:33:654][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2020-09-29 11:42:33:660][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2020-09-29 11:42:33:709][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appCtx'
+[2020-09-29 11:42:33:711][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2020-09-29 11:42:33:712][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2020-09-29 11:42:33:731][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2020-09-29 11:42:33:739][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+[2020-09-29 11:42:33:740][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2020-09-29 11:42:33:748][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2020-09-29 11:42:33:748][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2020-09-29 11:42:33:755][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'changePasswordService'
+[2020-09-29 11:42:33:759][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberDao'
+[2020-09-29 11:42:33:765][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+[2020-09-29 11:42:34:1647][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberDao' via constructor to bean named 'dataSource'
+[2020-09-29 11:42:34:1670][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberInfoPrinter'
+[2020-09-29 11:42:34:1672][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberPrinter'
+[2020-09-29 11:42:34:1673][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberListPrinter'
+[2020-09-29 11:42:34:1674][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberListPrinter' via constructor to bean named 'memberDao'
+[2020-09-29 11:42:34:1674][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberListPrinter' via constructor to bean named 'memberPrinter'
+[2020-09-29 11:42:34:1675][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberRegisterService'
+[2020-09-29 11:42:34:1676][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'memberRegisterService' via constructor to bean named 'memberDao'
+[2020-09-29 11:42:34:1676][main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+[2020-09-29 11:42:34:1697][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
+[2020-09-29 11:42:34:1698][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+[2020-09-29 11:42:34:1701][main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2020-09-29 11:42:34:1918][main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [gradle_spring_db_study.spring.ChangePasswordService.changePassword]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2020-09-29 11:42:34:1918][main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92] for JDBC transaction
+[2020-09-29 11:42:34:1922][main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92] to manual commit
+[2020-09-29 11:42:34:1933][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query
+[2020-09-29 11:42:34:1934][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT ID, EMAIL, PASSWORD, NAME, REGDATE FROM MEMBER WHERE EMAIL = ?]
+[2020-09-29 11:42:34:1956][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+[2020-09-29 11:42:34:1957][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [update member set name=?, password=? where email=?]
+[2020-09-29 11:42:34:1957][main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+[2020-09-29 11:42:34:1958][main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92]
+[2020-09-29 11:42:34:1966][main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [HikariProxyConnection@1739267143 wrapping oracle.jdbc.driver.T4CConnection@533bda92] after transaction
+[2020-09-29 11:42:34:1966][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query
+[2020-09-29 11:42:34:1967][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT ID, EMAIL, PASSWORD, NAME, REGDATE FROM MEMBER WHERE EMAIL = ?]
+[2020-09-29 11:42:34:1967][main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2020-09-29 11:42:34:1968][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+[2020-09-29 11:42:34:1968][main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+[2020-09-29 11:42:34:1968][main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2020-09-29 11:42:34:1975][main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6df97b55, started on Tue Sep 29 11:42:33 KST 2020
